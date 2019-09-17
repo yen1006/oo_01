@@ -13,3 +13,7 @@
 * `0624029 萬緯萱`
 
 ###### ```My First Assignment```
+
+[高科大](https://www.nkust.edu.tw/index.php)
+
+<https://www.nkust.edu.tw/index.php>

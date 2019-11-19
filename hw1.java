@@ -14,7 +14,8 @@ class CTriangle extends CShape{
     cline=c;
   }
   public void show(){
-    System.out.println("area="+0.5*a*b);
+    System.out.println("color="+color);
+    System.out.println("area="+0.5*aline*bline);
   }
 }
 public class hw1

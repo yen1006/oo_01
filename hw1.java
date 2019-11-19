@@ -1,4 +1,4 @@
-abstract class Cshpe{
+abstract class Cshape{
   protected String color;
   public void setColor(Sting str){
     color=str;
@@ -6,7 +6,7 @@ abstract class Cshpe{
   public abstract void show();
  }
   
-class CTriangle extends CSharp{
+class CTriangle extends CShape{
   protected Double aline,bline,cline;
   public CTriangle(double a,double b,double c){
     aline=a;

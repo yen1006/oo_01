@@ -5,13 +5,13 @@ class Rectangle implements Shape{
   double length;
   double width;
   public Rectangle(double len,double wid){
-    length =len;
+    length=len;
     width=wid;
   }
  public String toString(){
 
  } 
-  public Double getArea(){
+  public double getArea(){
      System.out.println( "area=" + length*width);
   }
 }
@@ -19,20 +19,21 @@ class Rectangle implements Shape{
 class Triangle implements Shape{
   double base;
   double height;
-  
+  public Triangle(double b,double h){
+    base=b;
+    height=h;
+  }
   public String toString(){
     
  }  
-  public Double getArea(){
+  public double getArea(){
     System.out.println( "area=" + base*height/2);
   }
 }
-public class app11_7{
+public class 1126{
   public static void main(String args[]){
-    Rectangle rec;
-    rec=new Rectangle(4,5);
-    Triangle tri;
-    tri=new Triangle(4,5);
+    Rectangle rec=new Rectangle(4,5);
+    Triangle tri=new Triangle(4,5);
     rec.getArea();
     tri.getArea();
 }
